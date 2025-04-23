@@ -33,7 +33,7 @@ p {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url("/noise.png") repeat;
+  background: url("/assets/noise.png") repeat;
   opacity: 0.05; /* 5% opacity */
   mix-blend-mode: multiply; /* Applies the blend mode */
   pointer-events: none;

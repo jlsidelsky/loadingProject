@@ -60,7 +60,7 @@ const pages: pageProps[] = [
         </>
       ),
     },
-    imgs: "/colors.png",
+    imgs: "/assets/colors.png",
   },
   {
     info: {
@@ -89,7 +89,7 @@ const pages: pageProps[] = [
         </>
       ),
     },
-    imgs: "/digital.jpg",
+    imgs: "/assets/digital.jpg",
   },
   {
     info: {
@@ -117,7 +117,7 @@ const pages: pageProps[] = [
         </>
       ),
     },
-    imgs: "/cmyk.png",
+    imgs: "/assets/cmyk.png",
   },
   {
     info: {
@@ -165,9 +165,9 @@ const pages: pageProps[] = [
       ),
     },
     imgs: {
-      none: "/luncheon.jpg",
-      rgb: "/luncheonRGB.png",
-      cmyk: "/luncheonCMYK.jpg",
+      none: "/assets/luncheon.jpg",
+      rgb: "/assets/luncheonRGB.png",
+      cmyk: "/assets/luncheonCMYK.jpg",
     },
   },
   {
@@ -216,9 +216,9 @@ const pages: pageProps[] = [
       ),
     },
     imgs: {
-      none: "/grande.jpg",
-      rgb: "/grandeRBG.png",
-      cmyk: "/grandeCMYK.jpg",
+      none: "/assets/grande.jpg",
+      rgb: "/assets/grandeRBG.png",
+      cmyk: "/assets/grandeCMYK.jpg",
     },
   },
   {
@@ -271,9 +271,9 @@ const pages: pageProps[] = [
       ),
     },
     imgs: {
-      none: "/maternity.jpg",
-      rgb: "/maternityRGB.png",
-      cmyk: "/maternityCMYK.jpg",
+      none: "/assets/maternity.jpg",
+      rgb: "/assets/maternityRGB.png",
+      cmyk: "/assets/maternityCMYK.jpg",
     },
   },
   // {
@@ -391,11 +391,11 @@ function App() {
           ></ButtonGroup>
           <div style={{ display: "flex", flexFlow: "row", gap: 16 }}>
             <div>
-              <img src="/zoomIn.png" alt="" width={64} />
+              <img src="/assets/zoomIn.png" alt="" width={64} />
               <p>Zoom In</p>
             </div>
             <div>
-              <img src="/zoomOut.png" alt="" width={64} />
+              <img src="/assets/zoomOut.png" alt="" width={64} />
               <p>Zoom Out</p>
             </div>
           </div>
