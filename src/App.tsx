@@ -9,6 +9,25 @@ import { useEffect, useState } from "react";
 import { Info } from "./components/Info/Info";
 import { InfoProps } from "./components/Info/Info";
 
+import colors from "/assets/colors.png";
+import cmyk from "/assets/cmyk.png";
+import digital from "/assets/digital.jpg";
+
+import luncheon from "/assets/luncheon.jpg";
+import luncheonRGB from "/assets/luncheonRGB.png";
+import luncheonCMYK from "/assets/luncheonCMYK.jpg";
+
+import grande from "/assets/grande.jpg";
+import grandeRGB from "/assets/grandeRBG.png";
+import grandeCMYK from "/assets/grandeCMYK.jpg";
+
+import maternity from "/assets/maternity.jpg";
+import maternityRGB from "/assets/maternityRGB.png";
+import maternityCMYK from "/assets/maternityCMYK.jpg";
+
+import zoomIn from "/assets/zoomIn.png";
+import zoomOut from "/assets/zoomOut.png";
+
 interface imgProps {
   rgb: string;
   cmyk: string;
@@ -60,7 +79,7 @@ const pages: pageProps[] = [
         </>
       ),
     },
-    imgs: "/assets/colors.png",
+    imgs: colors,
   },
   {
     info: {
@@ -89,7 +108,7 @@ const pages: pageProps[] = [
         </>
       ),
     },
-    imgs: "/assets/digital.jpg",
+    imgs: digital,
   },
   {
     info: {
@@ -117,7 +136,7 @@ const pages: pageProps[] = [
         </>
       ),
     },
-    imgs: "/assets/cmyk.png",
+    imgs: cmyk,
   },
   {
     info: {
@@ -165,9 +184,9 @@ const pages: pageProps[] = [
       ),
     },
     imgs: {
-      none: "/assets/luncheon.jpg",
-      rgb: "/assets/luncheonRGB.png",
-      cmyk: "/assets/luncheonCMYK.jpg",
+      none: luncheon,
+      rgb: luncheonRGB,
+      cmyk: luncheonCMYK,
     },
   },
   {
@@ -216,9 +235,9 @@ const pages: pageProps[] = [
       ),
     },
     imgs: {
-      none: "/assets/grande.jpg",
-      rgb: "/assets/grandeRBG.png",
-      cmyk: "/assets/grandeCMYK.jpg",
+      none: grande,
+      rgb: grandeRGB,
+      cmyk: grandeCMYK,
     },
   },
   {
@@ -271,9 +290,9 @@ const pages: pageProps[] = [
       ),
     },
     imgs: {
-      none: "/assets/maternity.jpg",
-      rgb: "/assets/maternityRGB.png",
-      cmyk: "/assets/maternityCMYK.jpg",
+      none: maternity,
+      rgb: maternityRGB,
+      cmyk: maternityCMYK,
     },
   },
   // {
@@ -391,11 +410,11 @@ function App() {
           ></ButtonGroup>
           <div style={{ display: "flex", flexFlow: "row", gap: 16 }}>
             <div>
-              <img src="/assets/zoomIn.png" alt="" width={64} />
+              <img src={zoomIn} alt="" width={64} />
               <p>Zoom In</p>
             </div>
             <div>
-              <img src="/assets/zoomOut.png" alt="" width={64} />
+              <img src={zoomOut} alt="" width={64} />
               <p>Zoom Out</p>
             </div>
           </div>
